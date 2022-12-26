@@ -10,6 +10,7 @@ For more detail, please visit the tutorial:
 > [Angular 14 Refresh Token with Interceptor and JWT example](https://www.bezkoder.com/angular-14-refresh-token/)
 
 [spring-boot-web-application-sample](https://github.com/alexmntmnk/spring-boot-web-application-sample)
-![spring-boot-web-application-sample](https://github.com/alexmntmnk/spring-boot-web-application-sample)
+
+[spring-boot-web-application-sample common](https://github.com/alexmntmnk/spring-boot-web-application-sample/tree/master/common)
 
 
