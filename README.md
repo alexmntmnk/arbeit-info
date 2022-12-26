@@ -8,3 +8,8 @@ For more detail, please visit the tutorial:
 > [Angular 14 Logout when Token is expired](https://www.bezkoder.com/logout-when-token-expired-angular-14/)
 
 > [Angular 14 Refresh Token with Interceptor and JWT example](https://www.bezkoder.com/angular-14-refresh-token/)
+
+[spring-boot-web-application-sample](https://github.com/alexmntmnk/spring-boot-web-application-sample)
+![spring-boot-web-application-sample](https://github.com/alexmntmnk/spring-boot-web-application-sample)
+
+
