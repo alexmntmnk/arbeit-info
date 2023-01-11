@@ -1,0 +1,26 @@
+server.port=8098
+
+#spring.data.mongodb.database=rzdTelBot_embeddeddb
+#spring.data.mongodb.port=50741
+
+
+
+#spring.data.mongodb.database=name-db
+#spring.data.mongodb.uri=mongodb+srv://imAdmin:611953@mycluster-az7yk.mongodb.net/songs?retryWrites=true&w=majority
+#spring.data.mongodb.uri=mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false
+
+#Если без паролей и пользователей
+spring.data.mongodb.uri=mongodb://localhost:27017/interview-db
+#spring.data.mongodb.uri=mongodb://alex:Drhr4sDfs@localhost:27017/alexdb
+
+spring.data.mongodb.database=name-db
+
+
+#spring.datasource.url=jdbc:mongodb://localhost:27017/interview-db
+#spring.datasource.username=carstudy
+#spring.datasource.password=drfge4fdgh
+#spring.datasource.driver-class-name=org.postgresql.Driver
+#spring.jpa.database-platform = org.hibernate.dialect.PostgreSQL9Dialect
+#spring.jpa.generate-ddl=true
+#spring.jpa.hibernate.ddl-auto = update
+#hibernate.show_sql=true
