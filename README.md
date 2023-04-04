@@ -14,3 +14,4 @@ For more detail, please visit the tutorial:
 [spring-boot-web-application-sample common](https://github.com/alexmntmnk/spring-boot-web-application-sample/tree/master/common)
 
 
+https://rostov-na-donu.domclick.ru/card/sale__flat__1714443768?utm=sharing_offer
