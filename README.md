@@ -18,4 +18,10 @@ For more detail, please visit the tutorial:
 источник
 https://github.com/amigoscode/spring-boot-security-course
 
+еще один курс по spring-security 3-5 лет давности
+https://github.com/mickknutson/spring_security_course
+
+
+Курс Java Full Stack Spring Boot and Angular_code
+https://github.com/senolatac/spring-boot-book-seller
 
