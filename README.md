@@ -15,3 +15,5 @@ For more detail, please visit the tutorial:
 
 
 https://rostov-na-donu.domclick.ru/card/sale__flat__1714443768?utm=sharing_offer
+
+https://github.com/iluwatar/java-design-patterns
