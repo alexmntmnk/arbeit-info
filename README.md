@@ -17,3 +17,13 @@ For more detail, please visit the tutorial:
 https://rostov-na-donu.domclick.ru/card/sale__flat__1714443768?utm=sharing_offer
 
 https://github.com/iluwatar/java-design-patterns
+
+REST API (пример статей: https://habr.com/ru/articles/590679/, https://habr.com/ru/articles/483202/)   
+        Task actions
+          
+      Convert to task
+     Delete 
+
+        
+      
+ Open API, Swagger (пример статей: https://habr.com/ru/articles/541592/)
