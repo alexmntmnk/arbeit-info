@@ -1,3 +1,6 @@
+
+https://struchkov.dev/blog/ru/transaction-jdbc-and-spring-boot/
+
 # arbeit-info
 ## Angular JWT App Diagram with Router and HttpInterceptor
 ![angular-14-jwt-authentication](angular-14-jwt-authentication.png)
