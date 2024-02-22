@@ -1,3 +1,4 @@
+Инфа по транзакциям
 
 https://struchkov.dev/blog/ru/transaction-jdbc-and-spring-boot/
 
