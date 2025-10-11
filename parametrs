@@ -1,0 +1,35 @@
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Issue;
+
+class CombinedIpCreateTest {
+
+    // Эта аннотация остается статической, так как она одинакова для обоих тестов.
+    @Issue("AEP-58597")
+    @ParameterizedTest(name = "Тест для ИП CREATE с ID = {1}")
+    @CsvSource({
+        "AEP-T15584, 15584, '15584 ИП CREATE', 'data/ГД/15584 DocumentDescriptionDto.json', '15584-Order'",
+        "AEP-T15585, 15585, '15585 ИП CREATE', 'data/ГД/15585 DocumentDescriptionDto.json', '15585-Order'"
+    })
+    void combinedIpCreateTest(String tmsLink, String tag, String story, String jsonPath, String orderId) {
+        // Динамически добавляем метаданные для отчета Allure
+        Allure.tms(tmsLink, tmsLink); // Задаем TmsLink
+        Allure.story(story);           // Задаем Story
+        Allure.label("tag", tag);      // Задаем Tag
+
+        // Шаг теста
+        Allure.step("Создание документа по пути: " + jsonPath, () -> {
+            final var createDocument = createDocument(jsonPath, orderId);
+            // Здесь могут быть ваши проверки (assertions)
+            // Например: assertNotNull(createDocument);
+        });
+    }
+
+    // Вспомогательный метод, как в вашем примере
+    private Object createDocument(String jsonPath, String orderId) {
+        System.out.printf("Creating document with path: %s and orderId: %s%n", jsonPath, orderId);
+        // Ваша логика создания документа...
+        return new Object();
+    }
+}
