@@ -13,3 +13,5 @@ Long countDocumentWithExactlyOneSendAndNoReceive(
     @Param("statusReceived") SendLogToAbedStatus statusReceived,
     @Param("startDate") LocalDateTime startDate
 );
+
+https://github.com/PacktPublishing/Learn-Java-17-Programming
